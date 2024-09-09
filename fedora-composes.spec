@@ -5,7 +5,7 @@
 %bcond_with tests
 
 Name:           fedora-composes
-Version:        0.2
+Version:        0.2.1
 Release:        1%{?dist}
 Summary:        Query Fedora composes
 
@@ -73,6 +73,9 @@ mkdir -p %{buildroot}%{_datadir}/bash-completion/completions/
 
 
 %changelog
+* Mon Sep  9 2024 Jens Petersen <petersen@redhat.com> - 0.2.1-1
+- https://hackage.haskell.org/package/fedora-composes-0.2.1/changelog
+
 * Wed Feb 14 2024 Jens Petersen <petersen@redhat.com> - 0.2-1
 - https://hackage.haskell.org/package/fedora-composes-0.2/changelog
 
